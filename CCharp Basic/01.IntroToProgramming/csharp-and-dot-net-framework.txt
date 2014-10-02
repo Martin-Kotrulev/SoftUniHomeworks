@@ -1,0 +1,3 @@
+C# is a programming language and .NET Framework is an application
+framework library. Also .NET framework assemblies is running under the Common Language Library.
+The implementation of C# is heavily integrates with the .NET Framework which is why the confusion between the two concepts exist.
