@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ThirdDigitIsSeven", "05.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FourDigitNumber", "06.FourDigitNumber\06.FourDigitNumber.csproj", "{DB1CE10F-49C3-44F2-9EE5-D40220CCC27B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.PointInACircle", "07.PointInACircle\07.PointInACircle.csproj", "{FA23A194-DBC5-43F8-B7A8-44F62A4518CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{DB1CE10F-49C3-44F2-9EE5-D40220CCC27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB1CE10F-49C3-44F2-9EE5-D40220CCC27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB1CE10F-49C3-44F2-9EE5-D40220CCC27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA23A194-DBC5-43F8-B7A8-44F62A4518CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA23A194-DBC5-43F8-B7A8-44F62A4518CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA23A194-DBC5-43F8-B7A8-44F62A4518CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA23A194-DBC5-43F8-B7A8-44F62A4518CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
