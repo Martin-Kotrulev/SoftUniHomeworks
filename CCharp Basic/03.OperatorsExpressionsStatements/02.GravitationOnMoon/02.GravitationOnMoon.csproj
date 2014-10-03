@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1AA44BEB-BA29-4A36-B107-0CF86F34B7C9}</ProjectGuid>
+    <ProjectGuid>{9D972643-6EDC-4C27-BFA7-5B197395D9F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_02.GravitationOnMoon</RootNamespace>

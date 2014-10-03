@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89E4DD10-BFB9-4B43-BCF5-FF750F41A8BF}</ProjectGuid>
+    <ProjectGuid>{51443A1B-6B4E-4BC3-A6C0-E300C65E100B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_01.OddOrEvenIntegers</RootNamespace>

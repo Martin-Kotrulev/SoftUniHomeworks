@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{25E3C57D-B349-4D76-B418-1B5CAB205684}</ProjectGuid>
+    <ProjectGuid>{5897559F-FAAF-4FB8-8CCE-AFD41DB6B6E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_05.ThirdDigitIsSeven</RootNamespace>
@@ -43,9 +43,6 @@
   <ItemGroup>
     <Compile Include="ThirdDigitIsSeven.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

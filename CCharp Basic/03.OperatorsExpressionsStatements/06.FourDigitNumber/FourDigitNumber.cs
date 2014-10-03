@@ -19,7 +19,7 @@ class FourDigitNumber
             currentDgt = n % 10;
             reversed += currentDgt;
             n /= 10;
-            if(n != 0)reversed *= 10;
+            if (n != 0) reversed *= 10;
         }
         return reversed;
     }

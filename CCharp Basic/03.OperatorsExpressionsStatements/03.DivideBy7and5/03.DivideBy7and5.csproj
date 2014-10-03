@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B7F39883-9248-48A5-8118-54769941B344}</ProjectGuid>
+    <ProjectGuid>{B38D31D0-7D50-4F08-B75D-E65054252B67}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_03.DivideBy7and5</RootNamespace>

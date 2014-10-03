@@ -11,7 +11,7 @@ class DivideBy7and5
     }
     static void Main()
     {
-            int n = int.Parse(Console.ReadLine());
-            Console.WriteLine(IfDivisable(n));
+        int n = int.Parse(Console.ReadLine());
+        Console.WriteLine(IfDivisable(n));
     }
 }

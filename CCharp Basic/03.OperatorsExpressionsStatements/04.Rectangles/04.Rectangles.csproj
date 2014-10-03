@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D6AB36B7-772C-4A83-9FC7-C92D231F5A20}</ProjectGuid>
+    <ProjectGuid>{C7A22F8E-074F-463D-AFF6-D228B1CED027}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_04.Rectangles</RootNamespace>
