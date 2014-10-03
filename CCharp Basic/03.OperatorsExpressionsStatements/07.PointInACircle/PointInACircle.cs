@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _07.PointInACircle
 {
-    class Program
+    class PointInACircle
     {
         static void Main(string[] args)
         {
