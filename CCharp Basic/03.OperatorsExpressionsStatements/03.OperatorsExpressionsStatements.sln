@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OddOrEvenIntegers", "..\..\SoftUniHomeworks\CCharp Basic\03.OperatorsExpressionsStatements\01.OddOrEvenIntegers\01.OddOrEvenIntegers.csproj", "{89E4DD10-BFB9-4B43-BCF5-FF750F41A8BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GravitationOnMoon", "..\..\SoftUniHomeworks\CCharp Basic\03.OperatorsExpressionsStatements\02.GravitationOnMoon\02.GravitationOnMoon.csproj", "{1AA44BEB-BA29-4A36-B107-0CF86F34B7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DivideBy7and5", "..\..\SoftUniHomeworks\CCharp Basic\03.OperatorsExpressionsStatements\03.DivideBy7and5\03.DivideBy7and5.csproj", "{B7F39883-9248-48A5-8118-54769941B344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Rectangles", "..\..\SoftUniHomeworks\CCharp Basic\03.OperatorsExpressionsStatements\04.Rectangles\04.Rectangles.csproj", "{D6AB36B7-772C-4A83-9FC7-C92D231F5A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ThirdDigitIsSeven", "..\..\SoftUniHomeworks\CCharp Basic\03.OperatorsExpressionsStatements\05.ThirdDigitIsSeven\05.ThirdDigitIsSeven.csproj", "{25E3C57D-B349-4D76-B418-1B5CAB205684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FourDigitNumber", "..\..\SoftUniHomeworks\CCharp Basic\03.OperatorsExpressionsStatements\06.FourDigitNumber\06.FourDigitNumber.csproj", "{AF344DF6-6D1E-4E93-842A-F7329AB926D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89E4DD10-BFB9-4B43-BCF5-FF750F41A8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E4DD10-BFB9-4B43-BCF5-FF750F41A8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E4DD10-BFB9-4B43-BCF5-FF750F41A8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E4DD10-BFB9-4B43-BCF5-FF750F41A8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA44BEB-BA29-4A36-B107-0CF86F34B7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA44BEB-BA29-4A36-B107-0CF86F34B7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA44BEB-BA29-4A36-B107-0CF86F34B7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA44BEB-BA29-4A36-B107-0CF86F34B7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F39883-9248-48A5-8118-54769941B344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F39883-9248-48A5-8118-54769941B344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F39883-9248-48A5-8118-54769941B344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F39883-9248-48A5-8118-54769941B344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AB36B7-772C-4A83-9FC7-C92D231F5A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AB36B7-772C-4A83-9FC7-C92D231F5A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AB36B7-772C-4A83-9FC7-C92D231F5A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AB36B7-772C-4A83-9FC7-C92D231F5A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E3C57D-B349-4D76-B418-1B5CAB205684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E3C57D-B349-4D76-B418-1B5CAB205684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E3C57D-B349-4D76-B418-1B5CAB205684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E3C57D-B349-4D76-B418-1B5CAB205684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF344DF6-6D1E-4E93-842A-F7329AB926D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF344DF6-6D1E-4E93-842A-F7329AB926D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF344DF6-6D1E-4E93-842A-F7329AB926D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF344DF6-6D1E-4E93-842A-F7329AB926D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
