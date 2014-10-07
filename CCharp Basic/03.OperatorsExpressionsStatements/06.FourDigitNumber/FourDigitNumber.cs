@@ -8,6 +8,7 @@ using System.Text;
 //•	Puts the last digit in the first position: dabc (in our example 1201).
 //•	Exchanges the second and the third digits: acbd (in our example 2101).
 //The number has always exactly 4 digits and cannot start with 0. 
+// Current solution works for any number lenght
 
 class FourDigitNumber
 {
