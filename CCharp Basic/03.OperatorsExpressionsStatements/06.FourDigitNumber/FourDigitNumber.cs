@@ -25,6 +25,7 @@ class FourDigitNumber
         }
         return num;
     }
+
     static void ExchangeSecondAndThird(string num)
     {
         char[] number = new char[num.Length];
@@ -42,6 +43,7 @@ class FourDigitNumber
             Console.Write(number[i]);
         }
     }
+
     static int ReverseNumber(int n)
     {
         int reversed = 0;
@@ -56,6 +58,7 @@ class FourDigitNumber
         }
         return reversed;
     }
+
     static void Main()
     {
 
@@ -74,8 +77,10 @@ class FourDigitNumber
             }
 
         } while (digit != 13); // 13 is ENTER
-        int reversed = ReverseNumber(n);
         Console.WriteLine(sum);
+
+        // reversed
+        int reversed = ReverseNumber(n);
         Console.WriteLine(reversed);
 
         // exchange second and third operation
