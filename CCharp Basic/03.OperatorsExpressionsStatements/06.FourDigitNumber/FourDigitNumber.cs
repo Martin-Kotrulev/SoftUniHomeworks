@@ -11,26 +11,37 @@ using System.Text;
 
 class FourDigitNumber
 {
-    static int PutLastToFirst(int num)
+    static int PutLastToFirst(int num, ref int lastDigit, out int current)
     {
-        int last = num % 10;
         num /= 10;
-        last = last * 1000 + num;
-        return last;
+        current = 0;
+        if (num != 0)
+        {
+            // Recursive call to calculate the digits in the number
+            PutLastToFirst(num, ref lastDigit, out current);
+            //------------Stack Returns:
+            lastDigit *= 10; // on every call move last digit 1 pos left
+            current = lastDigit; // saving current result to be returned after
+        }
+        return num;
     }
-    //static string ExchangeSecondAndThird(string num)
-    //{
-    //    char[] number = new char[num.Length];
-    //    for (int i = 0; i < num.Length; i++)
-    //    {
-    //        if (i != 0 && i != num.Length - 1)
-    //        {
-    //            char swap = num[i];
-                
-    //        }
-    //        else number[i] = num[i];
-    //    }
-    //}
+    static void ExchangeSecondAndThird(string num)
+    {
+        char[] number = new char[num.Length];
+        for (int i = 0; i < number.Length; i++)
+        {
+            if (i != 1 && i != num.Length - num.Length + 2)
+            {
+                number[i] = num[i];
+            }
+            else if (i == 1)
+            {
+                number[i] = num[i + 1];
+                number[i + 1] = num[i];
+            }
+            Console.Write(number[i]);
+        }
+    }
     static int ReverseNumber(int n)
     {
         int reversed = 0;
@@ -66,6 +77,15 @@ class FourDigitNumber
         int reversed = ReverseNumber(n);
         Console.WriteLine(sum);
         Console.WriteLine(reversed);
-        Console.WriteLine(PutLastToFirst(n));
+
+        // exchange second and third operation
+        ExchangeSecondAndThird(n.ToString());
+        Console.WriteLine();
+
+        // last to first operation
+        int lastDigit = n % 10;
+        int converted;
+        int firstDigits = PutLastToFirst(n, ref lastDigit, out converted);
+        Console.WriteLine(converted + firstDigits);
     }
 }
