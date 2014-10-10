@@ -16,21 +16,13 @@ class AdvancedBitExchange
     static int ExchangeBits(int n, int b1, int b2)
     {
         // in case bits on given position are the same do nothing
-        try
+        if (((n >> b1) & 1 ^ (n >> b2) & 1) == 0) return n;
+        else
         {
-            if (((n >> b1) & 1 ^ (n >> b2) & 1) == 0) return n;
-            else
-            {
-                // exchange 1 to 0 and 0 to 1
-                n = ((n >> b1) & 1) == 1 ? n & ~(1 << b1) : n | (1 << b1);
-                n = ((n >> b2) & 1) == 1 ? n & ~(1 << b2) : n | (1 << b2);
-                return n;
-            }
-        }
-        catch (OverflowException)
-        {
-            Console.WriteLine("Out of range");
-            throw;
+            // exchange 1 to 0 and 0 to 1
+            n = ((n >> b1) & 1) == 1 ? n & ~(1 << b1) : n | (1 << b1);
+            n = ((n >> b2) & 1) == 1 ? n & ~(1 << b2) : n | (1 << b2);
+            return n;
         }
     }
 
@@ -54,16 +46,26 @@ class AdvancedBitExchange
 
         while (k-- != 0)
         {
-            ExchangeBits(n, p++, q++);
             if (n == 0) // in case tryParse return 0: invalid
             {
-                Console.WriteLine("Out of range!"); break;
+                Console.WriteLine("Out of range!"); return;
             }
             else if (p >= qStart)
             {
-                Console.WriteLine("Overlapping!"); break;
+                Console.WriteLine("Overlapping!"); return;
+            }
+
+            try
+            {
+                n = ExchangeBits(n, p++, q++);
+            }
+            catch (OverflowException)
+            {
+                Console.WriteLine("Out of range!");
+                return;
             }
         }
         Console.WriteLine(Convert.ToString(n, 2).PadLeft(32, '0'));
+        Console.WriteLine(n);
     }
 }

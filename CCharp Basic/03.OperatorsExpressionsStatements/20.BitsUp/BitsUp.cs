@@ -3,7 +3,7 @@
 // step integer 
 // every byte is a sequence of 8 bits
 // set to one bits on position 1, 1+step, 1+2*step... 
-
+// SOLUTION TESTED - 100%
 class BitsUp
 {
     static void Main()

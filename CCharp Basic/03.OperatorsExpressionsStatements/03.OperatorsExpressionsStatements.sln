@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.TheExplorer", "19.TheExp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.BitsUp", "20.BitsUp\20.BitsUp.csproj", "{3D314408-BB14-4448-B266-97347BBA46D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.BitSifting", "21.BitSifting\21.BitSifting.csproj", "{17D38EA6-0AF0-4598-A72F-7340F084E58B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{3D314408-BB14-4448-B266-97347BBA46D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D314408-BB14-4448-B266-97347BBA46D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D314408-BB14-4448-B266-97347BBA46D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D38EA6-0AF0-4598-A72F-7340F084E58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D38EA6-0AF0-4598-A72F-7340F084E58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D38EA6-0AF0-4598-A72F-7340F084E58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D38EA6-0AF0-4598-A72F-7340F084E58B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
