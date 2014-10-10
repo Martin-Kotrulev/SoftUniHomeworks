@@ -6,20 +6,20 @@
 //the value v at the position p from the binary 
 //representation of n while preserving all other bits in n. 
 
-    class ModifyBitAtGivenPosition
+class ModifyBitAtGivenPosition
+{
+    static int ModifyBitOnPos(int n, int p, int v)
     {
-        static int ModifyBitOnPos(int n, int p, int v)
-        {
-            // if v = 0 using & combined with ~ example: 
-            //b1000 & ~(b0001 << 3)--> 1000 & 0111 = 0000
-            return v == 0 ? n & ~(1 << p) : n | (1 << p);
-        }
-        static void Main()
-        {
-            int n = int.Parse(Console.ReadLine());
-            int p = int.Parse(Console.ReadLine());
-            int v = int.Parse(Console.ReadLine());
-
-            Console.WriteLine(ModifyBitOnPos(n, p, v));
-        }
+        // if v = 0 using & combined with ~ example: 
+        //b1000 & ~(b0001 << 3)--> 1000 & 0111 = 0000
+        return v == 0 ? n & ~(1 << p) : n | (1 << p);
     }
+    static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+        int p = int.Parse(Console.ReadLine());
+        int v = int.Parse(Console.ReadLine());
+
+        Console.WriteLine(ModifyBitOnPos(n, p, v));
+    }
+}
