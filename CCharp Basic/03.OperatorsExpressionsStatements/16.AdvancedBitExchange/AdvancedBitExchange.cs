@@ -3,18 +3,6 @@
 //Write a program that exchanges bits {p, p+1, …, p+k-1} with bits 
 //{q, q+1, …, q+k-1} of a given 32-bit unsigned integer. 
 //The first and the second sequence of bits may not overlap. 
-/* TEST:
-Out of range:
-123456789
-26
-0
-7
-Overlapping:
-987654321
-2
-8
-11
- */
 
 class AdvancedBitExchange
 {
@@ -67,7 +55,7 @@ class AdvancedBitExchange
         while (k-- != 0)
         {
             ExchangeBits(n, p++, q++);
-            if (n == 0)
+            if (n == 0) // in case tryParse return 0: invalid
             {
                 Console.WriteLine("Out of range!"); break;
             }
