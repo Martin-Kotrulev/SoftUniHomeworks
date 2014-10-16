@@ -63,7 +63,7 @@ i++)
 }
 
 11.Programming Languages
-Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. How similar are they to C#? How do they differ from C#? Write in a text file called “programming-languages.txt” at least five languages along with 2-3 sentences about each of them. Use English.
+*Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. How similar are they to C#? How do they differ from C#? Write in a text file called “programming-languages.txt” at least five languages along with 2-3 sentences about each of them. Use English.
 
 12.Development Environments
 Perform a research (e.g. in Google or Wikipedia) and provide a short list with popular development environments (IDEs) like Visual Studio. Write in a text file called “list-of-IDEs.txt” at least five IDEs along with 2-3 sentences about each of them. Use English.
