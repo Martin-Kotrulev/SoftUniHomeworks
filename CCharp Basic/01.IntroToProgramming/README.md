@@ -3,17 +3,20 @@ Intro To Programming
 01.Play with Visual Studio
 Familiarize yourself with Microsoft Visual Studio (if you already have it installed) or install Visual Studio (or Visual Studio Express) at your laptop or home computer. Search in Internet for the correct download link: http://google.com/search?q=download+visual+studio. You do not have to submit anything in your homework for this problem.
 Start Visual Studio and play with it. Create a simple C# program (console application), compile and run it.
+
 02.Blank Solution in Visual Studio
 Create a blank solution in Visual Studio called “Intro-Programming-Homework”. This solution will hold all your homework projects, code and files. For each problem (exercises) add a separate project with self-descriptive name like “Hello-World” and “Print-Your-Name”. You do not have to submit anything in your homework for this problem.
-Problem 3.	Play with MSDN Library
+
+03.Play with MSDN Library
 Play with Microsoft Developer Network (MSDN) Library Documentation. You may find it online at http://msdn.microsoft.com/library.
 •	Find information about Console.WriteLine() method in MSDN.
 •	Find information about the Console class.
 •	Find information about the class keyword.
 You do not have to submit anything in your homework for this problem.
-Problem 4.	Hello World
+04.Hello World
 Create, compile and run a “Hello C#” console application. Ensure you have named the application well (e.g. “”HelloCSharp”). You should submit the Visual Studio project holding the HelloCSharp class as part of your homework.
-Problem 5.	Print Your Name
+
+05.Print Your Name
 Modify the previous application to print your name. Ensure you have named the application well (e.g. “PrintMyName”). You should submit a separate project Visual Studio project holding the PrintMyName class as part of your homework.
 Problem 6.	Print Numbers
 Write a program to print the numbers 1, 101 and 1001, each at a separate line. Name the program correctly. You should submit in your homework the Visual Studio project holding the source code of the PrintNumbers program.
