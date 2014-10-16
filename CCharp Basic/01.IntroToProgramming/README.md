@@ -1,9 +1,9 @@
 Intro To Programming
 ====================
-Problem 1.	Play with Visual Studio
+*Problem 1.	Play with Visual Studio
 Familiarize yourself with Microsoft Visual Studio (if you already have it installed) or install Visual Studio (or Visual Studio Express) at your laptop or home computer. Search in Internet for the correct download link: http://google.com/search?q=download+visual+studio. You do not have to submit anything in your homework for this problem.
 Start Visual Studio and play with it. Create a simple C# program (console application), compile and run it.
-Problem 2.	Blank Solution in Visual Studio
+*Problem 2.	Blank Solution in Visual Studio
 Create a blank solution in Visual Studio called “Intro-Programming-Homework”. This solution will hold all your homework projects, code and files. For each problem (exercises) add a separate project with self-descriptive name like “Hello-World” and “Print-Your-Name”. You do not have to submit anything in your homework for this problem.
 Problem 3.	Play with MSDN Library
 Play with Microsoft Developer Network (MSDN) Library Documentation. You may find it online at http://msdn.microsoft.com/library.
