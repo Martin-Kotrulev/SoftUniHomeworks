@@ -1,0 +1,85 @@
+Intro To Programming
+====================
+01. Play with Visual Studio
+    Familiarize yourself with Microsoft Visual Studio (if you already have it installed) or install Visual Studio (or Visual Studio Express) at your laptop or home computer. Search in Internet for the correct download link: http://google.com/search?q=download+visual+studio. You do not have to submit anything in your homework for this problem.
+Start Visual Studio and play with it. Create a simple C# program (console application), compile and run it.
+
+02. Blank Solution in Visual Studio
+    Create a blank solution in Visual Studio called “Intro-Programming-Homework”. This solution will hold all your homework projects, code and files. For each problem (exercises) add a separate project with self-descriptive name like “Hello-World” and “Print-Your-Name”. You do not have to submit anything in your homework for this problem.
+
+03. Play with MSDN Library
+    Play with Microsoft Developer Network (MSDN) Library Documentation. You may find it online at http://msdn.microsoft.com/library.
+•	Find information about Console.WriteLine() method in MSDN.
+•	Find information about the Console class.
+•	Find information about the class keyword.
+You do not have to submit anything in your homework for this problem.
+
+04. Hello World
+    Create, compile and run a “Hello C#” console application. Ensure you have named the application well (e.g. “”HelloCSharp”). You should submit the Visual Studio project holding the HelloCSharp class as part of your homework.
+
+05. Print Your Name
+    Modify the previous application to print your name. Ensure you have named the application well (e.g. “PrintMyName”). You should submit a separate project Visual Studio project holding the PrintMyName class as part of your homework.
+
+06. Print Numbers
+    Write a program to print the numbers 1, 101 and 1001, each at a separate line. Name the program correctly. You should submit in your homework the Visual Studio project holding the source code of the PrintNumbers program.
+
+07. Print First and Last Name
+    Create console application that prints your first and last name, each at a separate line.
+
+08. Square Root
+    Create a console application that calculates and prints the square root of the number 12345. Find in Internet “how to calculate square root in C#”.
+
+09. Print a Sequence
+    Write a program that prints the first 10 members of the sequence: 2, -3, 4, -5, 6, -7, ...
+
+10. Reformat C# Code
+    Reformat the following C# code to make it readable according to the C# best practices for code formatting. Change the casing of the identifiers in the code (e.g. use PascalCase for the class name):
+HorribleCode.cs
+using
+
+System;
+
+class hoRRiblEcoDe
+{
+    static
+     void
+
+        Main()
+    {
+        Console.
+
+    WriteLine("Hi, I am horribly formatted program"
+); Console.
+      WriteLine("Numbers and squares:")
+; for (int i = 0;
+i < 10;
+i++)
+        {
+            Console.WriteLine(i +
+                " --> " + i
+                *
+                i);
+        }
+    }
+}
+
+11. Programming Languages
+    *Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. How similar are they to C#? How do they differ from C#? Write in a text file called “programming-languages.txt” at least five languages along with 2-3 sentences about each of them. Use English.
+
+12. Development Environments
+    Perform a research (e.g. in Google or Wikipedia) and provide a short list with popular development environments (IDEs) like Visual Studio. Write in a text file called “list-of-IDEs.txt” at least five IDEs along with 2-3 sentences about each of them. Use English.
+
+13. C# and .NET Differences
+    Describe the difference between C# and .NET Framework in 2-3 sentences. Write your description in a text file called “csharp-and-dot-net-framework.txt”. Use English.
+
+14. *Current Date and Time
+    Create a console application that prints the current date and time. Find in Internet how.
+
+15. * Age after 10 Years
+    Write a program to read your birthday from the console and print how old you are now and how old you will be after 10 years.
+
+16. * Print Long Sequence
+    Write a program that prints the first 1000 members of the sequence: 2, -3, 4, -5, 6, -7, … You might need to learn how to use loops in C# (search in Internet).
+
+17. * Play with the Debugger in Visual Studio
+    Write a program that prints at the console the numbers from 1 to 1000, each at a separate line. You might need to learn how to use loops (search in Internet). Set a breakpoint in the line, which prints the next number in the Visual Studio code editor. Run the program through the debugger using the [F5] key. When the debugger stops at the breakpoint trace the code execution with [F10] key. You do not have to submit anything in your homework for this problem. Just play with the debugger to learn how it works.
