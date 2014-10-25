@@ -1,4 +1,11 @@
 ﻿using System;
+//Problem 13.	* – Triangle
+//You are given a two-dimensional Cartesian coordinate 
+//system and three points A, B, C with coordinates: 
+//A(Ax, Ay), B(Bx,  By), C(Cx, Cy). Write a program 
+//to check if these three points can form a triangle. 
+//Then calculate the area of this triangle. 
+
 //SOLUTION TESTED - 100%
 
 class Triangle

@@ -1,4 +1,13 @@
 ﻿using System;
+//Problem 14.	* – Pairs
+//You are given 2*N elements (even number of integer numbers). 
+//The first and the second element form a pair, the third and 
+//the fourth element form a pair as well, etc. Each pair has 
+//a value, calculated as the sum of its two elements. 
+//Your task is to write a program to check whether all 
+//pairs have the same value or print the max 
+//difference between two consecutive values.
+
 // SOLUTION CHECKED - 100%
 
 class Pairs

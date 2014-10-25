@@ -16,6 +16,8 @@ namespace _12.ZeroSubset
         static void CheckSubset()
         {
             int subsetSum = 0;
+
+            // k = count of the numbers in the subset
             for (int i = 0; i <= k; i++)
             {
                 subsetSum += n[indexes[i]];
@@ -33,8 +35,9 @@ namespace _12.ZeroSubset
 
         static void Combination(int i, int next)
         {
-            if (i > k) return;
+            if (i > k) return; // recursion base = combination of all members
 
+            // building different combinations with indexes array
             for (int j = next; j < n.Length; j++)
             {
                 indexes[i] = j;
