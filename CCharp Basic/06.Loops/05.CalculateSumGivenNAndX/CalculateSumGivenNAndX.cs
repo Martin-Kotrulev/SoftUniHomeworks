@@ -7,7 +7,7 @@
 
 class CalculateSumGivenNAndX
 {
-    static int Fact(int i)
+    static long Fact(int i)
     {
         if (i <= 1) return 1;
 
