@@ -7,7 +7,6 @@
 //number n (alone in a line) followed by n lines, each holding
 //an integer number. The output is like in the examples below. 
 
-
 class MinMaxSumAndAverage
 {
     static void Main(string[] args)

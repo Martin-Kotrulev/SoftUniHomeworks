@@ -4,7 +4,6 @@
 //calculates the sum S = 1 + 1!/x + 2!/x2 + … + n!/xn.
 //Use only one loop. Print the result with 5 digits after the decimal point.
 
-
 class CalculateSumGivenNAndX
 {
     static long Fact(int i)

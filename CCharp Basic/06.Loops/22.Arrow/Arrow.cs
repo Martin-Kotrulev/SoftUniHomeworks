@@ -42,8 +42,7 @@ class Arrow
                 right = (n * 2) - 3;
             }
 
-            //middle part
-            if (i < n - 1)
+            if (i < n - 1) // base part
             {
                 for (int j = 0; j < n * 2 - 1; j++)
                 {
@@ -51,7 +50,7 @@ class Arrow
                     else Console.Write('.');
                 }
             }
-            else if (i == n - 1)
+            else if (i == n - 1) // middle part
             {
                 for (int j = 0; j < n * 2 - 1; j++)
                 {
@@ -59,7 +58,7 @@ class Arrow
                     else Console.Write('.');
                 }
             }
-            else
+            else // sharp part
             {
                 for (int j = 0; j < n * 2 - 1; j++)
                 {
