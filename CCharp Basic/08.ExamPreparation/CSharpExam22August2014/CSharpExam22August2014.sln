@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Tables", "01.Tables\01.Tables.csproj", "{855C14CF-2C62-4C1A-A3D8-EDF70F48B91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BookOrders", "02.BookOrders\02.BookOrders.csproj", "{3991E966-21AE-4701-80A2-13FD01DB2ABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{855C14CF-2C62-4C1A-A3D8-EDF70F48B91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855C14CF-2C62-4C1A-A3D8-EDF70F48B91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855C14CF-2C62-4C1A-A3D8-EDF70F48B91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855C14CF-2C62-4C1A-A3D8-EDF70F48B91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3991E966-21AE-4701-80A2-13FD01DB2ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3991E966-21AE-4701-80A2-13FD01DB2ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3991E966-21AE-4701-80A2-13FD01DB2ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3991E966-21AE-4701-80A2-13FD01DB2ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
