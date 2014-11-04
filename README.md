@@ -8,4 +8,4 @@ SoftUniHomeworks
 5. [Conditional Statements] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/CCharp%20Basic/05.ConditionalStatements)
 6. [Loops] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/CCharp%20Basic/06.Loops)
 7. [Advanced Topics] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/CCharp%20Basic/07.AdvancedTopics)
-8. [Exam Preparation] 
+8. [Exam Preparation] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/CCharp%20Basic/08.ExamPreparation)
