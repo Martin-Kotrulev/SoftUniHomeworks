@@ -1,5 +1,6 @@
 ﻿using System;
 //Problem 2 – Book Orders
+
 //Bai NakMan has his own book store business. 
 //He often makes orders for new books, but the 
 //procedure is kind of complicated. You will be 
@@ -15,6 +16,7 @@
 //books. Your task is to sum how many books Bai NakMan has
 //bought and the end price of all books. Check the examples 
 //below to understand your task better.
+
 //Input
 //The input data should be read from the console.
 //•	At the first line you will be given integer number
@@ -26,12 +28,14 @@
 //o	Books per packet
 //The input data will always be valid and in the format described. 
 //There is no need to check it explicitly.
+
 //Output
 //The output should be printed on the console. It should
 //consist of exactly 2 lines:
 //•	On the first line print the amount of all bought books
 //•	On the second line print the price of all books 
 //bough, rounded to the second number after the decimal point
+
 //Constraints
 //•	The number of orders, packets and books per packet 
 //will all be integers in range [0…10000].
@@ -39,6 +43,8 @@
 //in range [±5.0 × 10-324 … ±1.7 × 10308].
 //•	Allowed working time for your program: 0.1 seconds.
 //•	Allowed memory: 16 MB.
+
+// SOLUTION CHECKED - 100%
 
 class BookOrders
 {
