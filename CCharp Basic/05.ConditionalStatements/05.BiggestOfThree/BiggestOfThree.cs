@@ -8,11 +8,12 @@ class BiggestOfThree
     static void Main()
     {
         int max = int.MinValue;
-
         for (int i = 0; i < 3; )
         {
             int num = int.Parse(Console.ReadLine());
             if (num > max) max = num;
         }
+
+        Console.WriteLine(max);
     }
 }
