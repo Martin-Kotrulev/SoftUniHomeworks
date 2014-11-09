@@ -10,14 +10,12 @@ class MatrixOfPalindromes
     {
         int r = int.Parse(Console.ReadLine());
         int c = int.Parse(Console.ReadLine());
-        string[,] matrix = new string[r, c];
 
         for (char i = 'a'; i < 'a' + r; i++)
         {
             for (char j = 'a'; j < 'a' + c; j++)
             {
                 string current = "" + i + j + i;
-                matrix[i, j] = current;
                 Console.Write(current + " ");
             }
             Console.WriteLine();

@@ -15,7 +15,7 @@ class DiffBetweenDates
             Console.ReadLine(), "dd.MM.yyyy", 
             System.Globalization.CultureInfo.InvariantCulture);
 
-        int diff = Math.Abs((first - second).Days);
+        int diff = (first - second).Days;
 
         Console.WriteLine(diff);
     }

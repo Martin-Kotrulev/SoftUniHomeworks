@@ -14,7 +14,7 @@ class ExtractURLs
         string input = Console.ReadLine();
         List<string> links = new List<string>();
 
-        Regex r = new Regex(@"(?<Protocol>\w+):\/\/(?<Domain>[\w@][\w.:@]+)\/?[\w\.?=%&=\-@/$,]*");
+        Regex r = new Regex(@"(?<Protocol>\w+):\/\/(?<Domain>[\w@][\w.:@]+)\/?[\w\.?=%&=\-@/$]*");
         Match m = r.Match(input);
         while (m.Success)
         {

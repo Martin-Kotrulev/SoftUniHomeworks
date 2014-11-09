@@ -12,6 +12,7 @@ class CountOfNames
     {
         Dictionary<string, int> names = new Dictionary<string, int>();
         string[] input = Console.ReadLine().Split(' ');
+        Array.Sort(input);
 
         for (int i = 0; i < input.Length; i++)
         {

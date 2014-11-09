@@ -19,6 +19,6 @@ class RemoveNames
 
         string[] final = toBeProcessed.ToString().Split(' ');
         for (int i = 0; i < final.Length; i++)
-            Console.WriteLine(i > 0 ? " {0}" : "{0}", final[i]);
+            Console.Write(i > 0 ? " {0}" : "{0}", final[i]);
     }
 }

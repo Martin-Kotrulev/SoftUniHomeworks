@@ -53,7 +53,7 @@ class LongestAreaInArray
         string[] arr = InputArrayValue(n);
         string bestString = GetBestStringValue(arr);
 
-        Console.WriteLine();
+        Console.WriteLine(bestLen);
 
         foreach (var item in arr)
         {
