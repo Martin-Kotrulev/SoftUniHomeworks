@@ -1,0 +1,9 @@
+Running in the command line. Make shure the path is set:
+
+javac '/home/user/path/to/source/file P_Sumator.java'
+java -cp '/home/user/path/to/class/file' P3_Sumator <args>
+
+or if the source is in the same directory:
+
+javac ToBeCompiledSource.java
+java ToBeCompiledSource
