@@ -1,6 +1,14 @@
-
+package javahomework.syntax;
 import java.util.Scanner;
 
+/**
+ * Problem 3. Points inside a Figure
+ * Write a program to check whether a point is 
+ * inside or outside of the figure below. 
+ * The point is given as a pair of floating-point 
+ * numbers, separated by a space. Your program 
+ * should print "Inside" or "Outside".
+ */
 
 public class P3_PointInsideFigure {
     static class Point{
@@ -51,6 +59,4 @@ public class P3_PointInsideFigure {
         
         System.out.println(checkPointPosition(toCheck, firstQuad, secondQuad, thirdQuad));
     }
-    
-     
 }
