@@ -29,13 +29,13 @@ public class BePositive_Broken {
                     System.out.printf("%d%s", currentNum, j != numbers.size() - 1 ? " " : "\n"); // changed == to !=
                     found = true;
                 } else {
-                    if (j + 1 <= numbers.size() - 1) {
+                    if (j + 1 <= numbers.size() - 1) { // added assuring ther will be no outOfBound exception
                         currentNum += numbers.get(j + 1);
 
                         // added
                         j++;
 
-                        if (currentNum >= 0) { //added =
+                        if (currentNum >= 0) { // added =
                             System.out.printf("%d%s", currentNum, j != numbers.size() - 1 ? " " : "\n"); // changed == to !=
                             found = true;
                         }
