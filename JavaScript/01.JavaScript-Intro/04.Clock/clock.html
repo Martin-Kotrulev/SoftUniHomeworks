@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function showClock() {
+            var dateTime = new Date();
+            var hour = dateTime.getUTCHours();
+            var minutes = dateTime.getUTCMinutes();
+            var seconds = dateTime.getUTCSeconds();
+
+            var time = hour + ':' + minutes + ':' + seconds;
+            document.getElementById('clock').innerHTML = time;
+        }
+        window.setInterval(showClock, 1000);
+    </script>
+</head>
+<body>
+    <h1>The current time is:</h1>
+    <p id="clock"></p>
+</body>
+</html>
