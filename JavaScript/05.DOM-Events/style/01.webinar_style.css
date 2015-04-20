@@ -1,0 +1,55 @@
+#form {
+    box-sizing: border-box;
+    width: 350px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFF0E0;
+    font-family: Helvetica, serif;
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+    width: 200px;
+    margin: 0 auto;
+}
+
+input {
+    width: 190px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
+.reg {
+    width: 55%;
+}
+
+.clear {
+    width: 30%
+}
+
+input[type='checkbox'] {
+    width: auto;
+    float: left;
+}
+
+span {
+    color: red;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 5px;
+    display: inline-block;
+    
+
+}
+
+#divShow {
+    display:none;
+}
