@@ -18,3 +18,15 @@ SoftUniHomeworks
 3. [Loops, Methods, Classes] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/Java%20Basic/03.LoopsMethodsClasses)
 4. [Java Collections] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/Java%20Basic/04.JavaCollections)
 5. [Lab Project] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/Java%20Basic/LabProject)
+
+
+
+#[HTML and CSS] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS)
+1. [HTML5 Overview] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS)
+2. [HTML Tables] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/02.HTML-Tables)
+3. [CSS Overview] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/03.CSS-Overview)
+4. [HTML Semantic] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/04.HTML5-Semantic)
+5. [CSS Presentation] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/05.CSS-Presentation)
+6. [HTML Forms] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/06.HTML5-Forms)
+7. [CSS Layout] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/08.CSS-Layout)
+8. [SASS-CSS Transformations] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/10.Sass-CSS-Transformationss)
