@@ -42,6 +42,6 @@ SoftUniHomeworks
 
 
 
-#[PHP]
+#[PHP] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/PHP)
 1. [PHP Syntax] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/PHP/02.PHP_Syntax)
 2. [PHP Working with Forms] ()
