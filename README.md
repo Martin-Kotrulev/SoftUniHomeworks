@@ -30,3 +30,18 @@ SoftUniHomeworks
 6. [HTML Forms] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/06.HTML5-Forms)
 7. [CSS Layout] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/08.CSS-Layout)
 8. [SASS-CSS Transformations] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/HTML_CSS/10.Sass-CSS-Transformationss)
+
+
+
+#[JavaScript Basics] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/JavaScript)
+1. [JavaScript Intro] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/JavaScript/01.JavaScript-Intro)
+2. [JavaScript Syntax] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/JavaScript/02.JavaScript-Syntax)
+3. [JavaScript Arrays, Strings, Loops] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/JavaScript/03.JavaScript-Arrays-Strings-Loops)
+4. [JavaScript Functions] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/JavaScript/04.JavaScript-Functions)
+5. [DOM Events] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/JavaScript/05.DOM-Events)
+
+
+
+#[PHP] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/PHP)
+1. [PHP Syntax] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/PHP/02.PHP_Syntax)
+2. [PHP Working with Forms] ()
