@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="04.html_lists_style.css"/>
+        <title>HTML Lists</title>
+    </head>
+    <body>
+        <div class="list">
+            <p>Preceding Text</p>
+            <ol class="outer">
+                <li>List Item 1</li>
+                    <ol class="firstNested">
+                        <li>Nested Item 1.1</li>
+                        <li>Nested Item 1.2</li>
+                    </ol>
+                <li>List Item 2</li>
+                    <ol>
+                        <li>Nested Item 2.1</li>
+                        <li>Nested Item 2.2</li>
+                            <ul class="circleItems">
+                                <li>Nested Item 2.2.1</li>
+                                <li>Nested Item 2.2.2.2</li>
+                                    <ul>
+                                        <li>Nested Item 2.2.2.1</li>
+                                        <li>Nested Item 2.2.2.2</li>
+                                    </ul>
+                                <li>Nested Item 2.2.3</li>
+                            </ul>
+                        <li>Nested Item 2.3</li>
+                    </ol>
+                <li>List Item 3</li>
+                    <ul class="circleItems">
+                        <li>Nested Item 3.1</li>
+                        <li>Nested Item 3.1</li>
+                        <li>Nested Item 3.1</li>
+                    </ul>
+            </ol>
+        </div>
+    </body>
+</html>

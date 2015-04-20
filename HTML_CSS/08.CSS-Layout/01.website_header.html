@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Website Header</title>
+		<link rel="stylesheet" href="01.website_header_style.css"/>
+	</head>
+	<body>
+		<nav>
+			<div class="logo">
+				<a href="https://softuni.bg"><img src="resources/SoftUniLogoBig.png" /></a>
+			</div>
+			<div class="navigationMenu">
+				<div class="firstLineMenu">
+					<div class="userAlerts">
+						0 <img src="resources/bell.png" />
+					</div>
+					<div tabindex="0" class="onclick-menu" id="user">
+						<strong class="caret"></strong>
+						<ul class="onclick-menu-content">
+							<li><button onclick="location.href='https://softuni.bg/users/profile/show'">User Panel</button></li>
+							<li><button onclick="location.href='https://softuni.bg/account/manage'">Account Management</button></li>
+							<li><button onclick="location.href='https://softuni.bg/users/profile/edit'">Edit Profile</button></li>
+							<li><button onclick="location.href='https://softuni.bg/users/teamwork/list'">Teamwork</button></li>
+							<li><button onclick="location.href='https://softuni.bg/home/schedule'">Room Schedule</button></li>
+							<li><button onclick="location.href='https://softuni.bg/Certificates/Certificates/Apply'">Certificats</button></li>
+						</ul>
+					</div>
+					<div class="searchForm">
+						<form method="post" action="#">
+							<input type="search" placeholder="Search..." />
+							<input type="submit" />	
+						</form>
+					</div>
+				</div>
+				<div class="mainMenu">
+					<ul class="mainMenuList">
+						<li><a href="https://softuni.bg/news">News</a></li>
+						<li class="drop">
+							<div tabindex="0" class="onclick-menu" id="university">
+								<strong class="caret"></strong>
+								<ul class="onclick-menu-content">
+									<li><button onclick="location.href='https://softuni.bg/about'">About us</button></li>
+									<li><button onclick="location.href='https://softuni.bg/professions'">Professions</button></li>
+									<li><button onclick="location.href='https://softuni.bg/plans'">Plans</button></li>
+								</ul>
+							</div>
+						</li>
+						<li class="drop">
+							<div tabindex="0" class="onclick-menu" id="trainings">
+								<strong class="caret"></strong>
+								<ul class="onclick-menu-content">
+									<li><button onclick="location.href='https://softuni.bg/trainings/courses/list'">Курсове</button></li>
+									<li><button onclick="location.href='https://softuni.bg/trainings/coursesinstances/details/1056'">Java Basics септември 2014</button></li>
+									<li><button onclick="location.href='https://softuni.bg/trainings/coursesinstances/details/1058'">C# Basics септември 2014</button></li>
+									<li><button onclick="location.href='https://softuni.bg/trainings/coursesinstances/details/1065'">Web Fundamentals (HTML + CSS) септ. 2014</button></li>
+									<li><button onclick="location.href='https://softuni.bg/trainings/coursesinstances/details/1057'">Teamwork and Personal Skills септ. 2014</button></li> 
+								</ul>
+							</div> 
+						</li>
+						<li><a href="https://softuni.bg/university/companies/partners">For companies</a></li>
+						<li><a href="https://softuni.bg/forum">Forum</a></li>
+						<li><a href="https://softuni.bg/contacts">Contacts</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</body>
+</html>

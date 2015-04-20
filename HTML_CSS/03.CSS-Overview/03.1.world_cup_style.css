@@ -1,0 +1,223 @@
+
+body {
+    background-color: #00923E;
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border-radius: 25px;
+}
+
+tr:nth-child(2n + 1) {
+    background-color: white;
+}
+
+tr:nth-child(2n) {
+    background-color: #c8c8c8;
+}
+
+th {
+    color: black;
+    font-weight: bold;
+    background-color: #f8c711;
+    height: 40px;
+}
+
+td {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.left {
+    float: right;
+    padding-right: 5px;
+}
+
+.th-left {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.left-text {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.right-text {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.result {
+    width: 80px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.group {
+    width: 80px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+select {
+    width: 40px;
+    height: 35px;
+}
+
+td.score-select {
+    width: 160px;
+}
+
+td.score-select, td.button {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.button {
+    width: 60px;
+    height: 50px;
+}
+
+button:disabled {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: red;
+    color: white;
+    font-size: 8px;
+}
+
+button:enabled {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: green;
+    color: white;
+    font-size: 8px;
+}
+
+select:disabled {
+     background-color: #dcdcdc;
+     color: red;
+ }
+
+select:enabled {
+    color: green;
+}
+
+#brasil:after {
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/brasil.jpg');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#mexico:before {
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/mexico.jpg');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#spain:after {
+   margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/spain.jpg');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#netherlands:before {
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/netherlands.png');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#italy:after {
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/italy.png');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#england:before {
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/england.png');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#argentina:after {
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/argentina.jpg');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#bosnia:before {
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/bosnia.png');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#germany:after {
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/germany.png');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#portugal:before {
+    margin-right: 5px;
+    margin-left: 5px;
+    content: "";
+    background: url('flags/portugal.jpg');
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}

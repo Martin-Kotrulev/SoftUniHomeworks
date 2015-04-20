@@ -1,0 +1,234 @@
+
+.onclick-menu {
+	position: relative;
+	display: inline-block;
+}
+.onclick-menu#trainings:before {
+	content: "TRAINING COURSES";
+}
+.onclick-menu#university:before {
+	content: "ABOUT THE UNIVERSITY";
+}
+
+.onclick-menu#user:before {
+	content: "USER";
+	display: inline-block;
+	margin-top: 6px;
+	text-align: center;
+}
+
+.onclick-menu:focus {
+	pointer-events: none;
+}
+
+.onclick-menu:focus .onclick-menu-content {
+	opacity: 1;
+	visibility: visible;
+}
+
+.onclick-menu:hover .onclick-menu-content {
+	opacity: 1;
+	visibility: visible;
+}
+
+.onclick-menu-content {
+	pointer-events: auto;
+	position: absolute;
+	z-index: 1;
+
+	opacity: 0;
+	visibility: hidden;
+	transition: visibility 0.5s;
+	-moz-transition: visibility 0.5s;
+	-webkit-transition: visibility 0.5s;
+	-o-transition: visibility 0.5s;
+}
+
+
+.onclick-menu.no-pointer-events {
+	pointer-events: auto !important;
+}
+
+.onclick-menu.no-visibility .onclick-menu-content {
+	visibility: visible !important;
+	display: none;
+}
+
+.onclick-menu.no-visibility:focus .onclick-menu-content {
+	display: block;
+}
+
+.onclick-menu.no-opacity .onclick-menu-content {
+	opacity: 1 !important;
+}
+
+.onclick-menu {
+	padding: 0;
+	margin: 0 0 0 0;
+	outline: 0;
+}
+
+.onclick-menu-content {
+	background-color: rgb(35, 68, 101);
+	width: auto;
+
+	margin-top: 0px;
+	margin-left: 0;
+	padding: 5px;
+}
+
+.onclick-menu-content:before {
+	content: "";
+	width: 0;
+	height: 0;
+
+	border-bottom: 10px solid rgb(35, 68, 101);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.onclick-menu-content li {
+	color: #ffffff;
+	list-style-type: none;
+	white-space: nowrap;
+	height: 20px;
+	border-bottom: 1px solid #435f7b;
+	vertical-align: middle;
+	box-sizing: border-box;
+	text-align: left;
+	padding-left: 0px;
+}
+
+/* style the buttons */
+.onclick-menu-content button {
+	background: transparent;
+	border: none;
+	color: inherit;
+	cursor: inherit;
+	outline: 0;
+	cursor: pointer;
+}
+.onclick-menu-content >li:hover {
+	background-color: #ff8c31;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+nav {
+	background-color: rgb(35, 68, 101);
+	color: white;
+}
+div.navigationMenu, div.userAlerts, div.searchForm, div.onclick-menu-content {
+	display: inline-block;
+}
+
+div.logo {
+    display: inline-block;
+    float: left;
+    margin: 10px 40px;
+}
+
+div.userAlerts, div.searchForm {
+	vertical-align: top;
+}
+
+div.firstLineMenu {
+	text-align: right;
+}
+
+div#user {
+	margin-top: 23px;
+}
+
+div.userAlerts {
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+div.userAlerts>img {
+	vertical-align: middle;	
+}
+
+ul.mainMenuList {
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+}
+
+ul.mainMenuList > li {
+	display: table-cell;
+}
+
+ul.mainMenuList > li.drop {
+	position: relative;
+	left: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+ul.mainMenuList > li > a {
+	display: table-cell;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+ul.mainMenuList > li:hover, #user:hover {
+	background-color: #4ca0db;
+	border-radius: 5px;
+}
+
+input[type="submit"] {
+	display:inline-block;
+	background-image: url(lupa.png);
+	width: 32px;
+	height: 30px;
+	border: 1px solid #d5d5d5;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	box-sizing: border-box;
+	margin: 0px;
+	margin-top: 21px;
+	margin-left: -10px;
+	padding: 0px;
+	color: transparent;
+}
+
+input[type="search"] {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 30px;
+	width: 230px;
+	margin: 0px;
+	margin-top: 21px;
+	padding: 0px;
+	border: 1px solid #d5d5d5;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 5px;
+}
+
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+
+#university {
+	margin-right: 20px;
+}
+
+#trainings {
+	margin-right: 20px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fakebook</title>
+    <link href="04.fakebook_style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+        <h1>fakebook</h1>
+        <h2>Registration</h2>
+        <h3>It is safe and it will always be!</h3>
+        
+        <section>
+            <fieldset>
+                <legend>Non-Important Information</legend>
+                <input type="text" placeholder="First Name" name="firstname" class="input" />
+                <input type="text" placeholder="Last Name" name="lastname" class="input" />
+                <br />
+                <input type="email" placeholder="Your Email" name="email" class="input" />
+                <input type="tel" placeholder="Phone Number" name="phonenum" class="input" />
+                <br />
+                <input type="password" placeholder="Password" name="pass" class="input" />
+                <input type="text" placeholder="Website" name="website" class="input" />
+                <br />
+                <label for="birthday">Birthday</label>
+                <br />
+                <input type="datetime-local" name="birthday" id="birthday" value="2014-09-05T01:58:00" /></br>
+                <input type="radio" value="female" class="gender" name="gender" />
+                <label for="female">Female</label>
+                <input type="radio" value="male" id="gender" name="gender" />
+                <label for="male">Male</label>
+                <input type="radio" value="other" id="gender" name="gender" checked />
+                <label for="other">Other</label>
+                <br />
+                <br />
+            </fieldset>
+
+            <fieldset>
+                <legend>Important Information *required</legend>
+                <select class="input">
+                    <option selected="selected">Country</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Romania">Romania</option>
+                    <option value="Macedonia">Macedonia</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input type="text" placeholder="Village" name="village" class="input" />
+                <input type="text" placeholder="District" name="district" class="input" />
+                <br />
+                <input type="text" placeholder="Street" name="street" class="input" />
+                <input type="text" placeholder="Nr" name="num" class="details" />
+                <input type="text" placeholder="Floor" name="floor" class="details" />
+                <input type="text" placeholder="Ap Nr" name="ap nr" class="details" />
+                <br />
+                <label for="color">Door Color</label>
+                <br />
+                <input type="color" name="color" class="input" id="color" value="#FF80C0" />
+                <input type="text" placeholder="Water Meter Number" name="meter-num" class="input" />
+                <select class="input">
+                    <option selected="selected">Aunt's Panties Size</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="Unimaginable">Unimaginable</option>
+                </select>
+                <br />
+                <label for="personalInfo">More Personal Information</label>
+                <br />
+                <textarea placeholder="Give us more information!!!" id="personalInfo"></textarea>
+            </fieldset>
+            <input type="reset" value="Clear Form" id="btn-clear" />
+            <input type="submit" value="Register" id="btn-register" />
+        </section>
+</body>
+</html>
