@@ -44,4 +44,6 @@ SoftUniHomeworks
 
 #[PHP] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/PHP)
 1. [PHP Syntax] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/PHP/02.PHP_Syntax)
-2. [PHP Working with Forms] ()
+2. [PHP Working with Forms] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/PHP/03.working_with_forms)
+3. [PHP Flow Control] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/PHP/05.flow_control)
+4. [PHP Arrays, Strings, Objects] (https://github.com/Martin-Kotrulev/SoftUniHomeworks/tree/master/PHP/06.arrays_strings_objects)
