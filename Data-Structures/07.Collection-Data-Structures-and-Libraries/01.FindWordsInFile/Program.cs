@@ -20,14 +20,9 @@ namespace FindWordsInFile
             string text = File.ReadAllText("../../1000wordsFile.txt");
             var wordsCounter = new Dictionary<string, int>();
 
-            var words = text.Split(new char[] { ',', ' ', '.' }, 
+            var words = text.Split(new char[] { ',', ' ', '.' },
                 StringSplitOptions.RemoveEmptyEntries);
 
-            foreach (var word in words)
-            {
-                Console.WriteLine(word);
-            }
-            /*
             foreach (var word in words)
             {
                 if (wordsCounter.ContainsKey(word))
@@ -44,7 +39,6 @@ namespace FindWordsInFile
             {
                 Console.WriteLine("{0} -> {1}", entry.Key, entry.Value);
             }
-            */
         }
     }
 }
