@@ -5,12 +5,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FindWordsInFile", "01.Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ImplementBinaryHeap", "03.ImplementBinaryHeap\03.ImplementBinaryHeap.csproj", "{29699E69-54CB-4E10-A3C8-321B53B57C96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ProductsInPriceRange", "02.ProductsInPriceRange\02.ProductsInPriceRange.csproj", "{218F057B-30C3-4DAC-AF0D-6968C9C7B34D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{218F057B-30C3-4DAC-AF0D-6968C9C7B34D}.Debug|x86.ActiveCfg = Debug|x86
+		{218F057B-30C3-4DAC-AF0D-6968C9C7B34D}.Debug|x86.Build.0 = Debug|x86
+		{218F057B-30C3-4DAC-AF0D-6968C9C7B34D}.Release|x86.ActiveCfg = Release|x86
+		{218F057B-30C3-4DAC-AF0D-6968C9C7B34D}.Release|x86.Build.0 = Release|x86
 		{29699E69-54CB-4E10-A3C8-321B53B57C96}.Debug|x86.ActiveCfg = Debug|x86
 		{29699E69-54CB-4E10-A3C8-321B53B57C96}.Debug|x86.Build.0 = Debug|x86
 		{29699E69-54CB-4E10-A3C8-321B53B57C96}.Release|x86.ActiveCfg = Release|x86

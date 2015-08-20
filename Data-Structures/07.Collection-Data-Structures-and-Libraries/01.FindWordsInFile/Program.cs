@@ -2,6 +2,7 @@
 using System.Text.RegularExpressions;
 using System.IO;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 /*
  * 01. Find Words in File
@@ -23,6 +24,8 @@ namespace FindWordsInFile
             var words = text.Split(new char[] { ',', ' ', '.' },
                 StringSplitOptions.RemoveEmptyEntries);
 
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
             foreach (var word in words)
             {
                 if (wordsCounter.ContainsKey(word))
@@ -34,6 +37,7 @@ namespace FindWordsInFile
                     wordsCounter.Add(word, 1);
                 }
             }
+            var elapsed = stopWatch.Elapsed;
 
             foreach (var entry in wordsCounter)
             {
