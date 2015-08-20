@@ -5,6 +5,11 @@ namespace ImplementBinaryHeap
 {
     class MainClass
     {
+        /*
+         * 03. Implement a Binary Heap
+         * Implement a class PriorityQueue<T> based on the data structure "binary heap". Do not use any external library!
+         * Hint: learn about "binary heaps" in Wikipedia. */
+
         public static void Main(string[] args)
         {
             var priorityQueue = new PriorityQueue<int, string>();
