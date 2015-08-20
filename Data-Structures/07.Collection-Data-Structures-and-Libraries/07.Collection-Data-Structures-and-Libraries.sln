@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FindWordsInFile", "01.FindWordsInFile\01.FindWordsInFile.csproj", "{DC9403F4-1404-4282-A4C4-3365C71D72FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ImplementBinaryHeap", "03.ImplementBinaryHeap\03.ImplementBinaryHeap.csproj", "{29699E69-54CB-4E10-A3C8-321B53B57C96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29699E69-54CB-4E10-A3C8-321B53B57C96}.Debug|x86.ActiveCfg = Debug|x86
+		{29699E69-54CB-4E10-A3C8-321B53B57C96}.Debug|x86.Build.0 = Debug|x86
+		{29699E69-54CB-4E10-A3C8-321B53B57C96}.Release|x86.ActiveCfg = Release|x86
+		{29699E69-54CB-4E10-A3C8-321B53B57C96}.Release|x86.Build.0 = Release|x86
 		{DC9403F4-1404-4282-A4C4-3365C71D72FD}.Debug|x86.ActiveCfg = Debug|x86
 		{DC9403F4-1404-4282-A4C4-3365C71D72FD}.Debug|x86.Build.0 = Debug|x86
 		{DC9403F4-1404-4282-A4C4-3365C71D72FD}.Release|x86.ActiveCfg = Release|x86

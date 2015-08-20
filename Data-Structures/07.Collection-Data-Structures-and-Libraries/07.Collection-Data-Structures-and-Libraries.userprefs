@@ -1,1 +1,18 @@
-﻿<Properties StartupItem="01.FindWordsInFile/01.FindWordsInFile.csproj" />
+﻿<Properties>
+  <StartupItems>
+    <String>01.FindWordsInFile/01.FindWordsInFile.csproj</String>
+    <String>03.ImplementBinaryHeap/03.ImplementBinaryHeap.csproj</String>
+  </StartupItems>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="03.ImplementBinaryHeap/Program.cs">
+    <Files>
+      <File FileName="01.FindWordsInFile/Program.cs" Line="17" Column="6" />
+      <File FileName="03.ImplementBinaryHeap/Program.cs" Line="22" Column="14" />
+      <File FileName="03.ImplementBinaryHeap/PriorityQueue.cs" Line="78" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
