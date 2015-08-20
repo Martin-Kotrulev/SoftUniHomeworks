@@ -3,16 +3,17 @@ using Wintellect.PowerCollections;
 using System.Diagnostics;
 using System.Collections.Generic;
 
+/*
+ * Products in Price Range
+ * Write a program to read a large collection of products (name + price) 
+ * and efficiently find the first 20 products in the price range [a…b] 
+ * ordered by price. Test for 500 000 products and 10 000 price searches.
+ * Hint: you may use OrderedBag<Product> or 
+ * OrderedMultiDictionary<int, Product> and sub-ranges.
+ */
 namespace ProductsInPriceRange
 {
-    /*
-     * Products in Price Range
-     * Write a program to read a large collection of products (name + price) 
-     * and efficiently find the first 20 products in the price range [a…b] 
-     * ordered by price. Test for 500 000 products and 10 000 price searches.
-     * Hint: you may use OrderedBag<Product> or 
-     * OrderedMultiDictionary<int, Product> and sub-ranges.
-     */
+   
     class MainClass
     {
         private static OrderedBag<Product> products = new OrderedBag<Product>();

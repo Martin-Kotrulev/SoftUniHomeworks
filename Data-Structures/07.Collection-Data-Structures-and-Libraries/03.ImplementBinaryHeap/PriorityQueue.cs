@@ -53,6 +53,15 @@ namespace ImplementBinaryHeap
             get { return _baseHeap.Count == 0; }
         }
 
+        /// <summary>
+        /// Gets the count of the elements in the queue.
+        /// </summary>
+        /// <value>The count.</value>
+        public int Count
+        {
+            get { return _baseHeap.Count; }
+        }
+
         private void ExchangeElements(int firstPos, int secPos)
         {
             KeyValuePair<TPriority, TValue> swap = _baseHeap[firstPos];

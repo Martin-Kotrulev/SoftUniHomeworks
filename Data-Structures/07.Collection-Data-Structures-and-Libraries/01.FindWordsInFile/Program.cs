@@ -11,7 +11,6 @@ using System.Diagnostics;
  * occurs in the text. Ensure your program works fast enough.
  * Hint: use Dictionary<string, int>.
  */
-
 namespace FindWordsInFile
 {
     class MainClass
@@ -43,6 +42,9 @@ namespace FindWordsInFile
             {
                 Console.WriteLine("{0} -> {1}", entry.Key, entry.Value);
             }
+
+            Console.WriteLine("Elapsed time for the words counting: " 
+                + elapsed.TotalSeconds);
         }
     }
 }
