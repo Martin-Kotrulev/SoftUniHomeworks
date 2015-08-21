@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ImplementBinaryHeap", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ProductsInPriceRange", "02.ProductsInPriceRange\02.ProductsInPriceRange.csproj", "{218F057B-30C3-4DAC-AF0D-6968C9C7B34D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.StringEditor", "04.StringEditor\04.StringEditor.csproj", "{E258FB1D-7167-4883-8EE0-F6A845EB74D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,5 +27,9 @@ Global
 		{DC9403F4-1404-4282-A4C4-3365C71D72FD}.Debug|x86.Build.0 = Debug|x86
 		{DC9403F4-1404-4282-A4C4-3365C71D72FD}.Release|x86.ActiveCfg = Release|x86
 		{DC9403F4-1404-4282-A4C4-3365C71D72FD}.Release|x86.Build.0 = Release|x86
+		{E258FB1D-7167-4883-8EE0-F6A845EB74D1}.Debug|x86.ActiveCfg = Debug|x86
+		{E258FB1D-7167-4883-8EE0-F6A845EB74D1}.Debug|x86.Build.0 = Debug|x86
+		{E258FB1D-7167-4883-8EE0-F6A845EB74D1}.Release|x86.ActiveCfg = Release|x86
+		{E258FB1D-7167-4883-8EE0-F6A845EB74D1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
