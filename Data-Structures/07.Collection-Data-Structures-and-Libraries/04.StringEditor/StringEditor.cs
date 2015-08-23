@@ -27,10 +27,8 @@ namespace StringEditor
         private static BigList<char> text = new BigList<char>();
         private static string[] tokens;
 
-        private static void Insert()
+        private static void Insert(string value, int position)
         {
-            string value = tokens[1];
-            int position = int.Parse(tokens[2]);
             if (position < 0 || position > text.Count - 1)
             {
                 Console.WriteLine("ERROR");
@@ -56,35 +54,31 @@ namespace StringEditor
         private static void Delete(int startIndex, int count)
         {
             if (startIndex < 0 || startIndex > text.Count - 1 
-                || startIndex + count > text.Count)
+                || (startIndex + count) - 1 > text.Count - 1)
             {
                 Console.WriteLine("ERROR");
             }
             else
             {
-                for (int i = startIndex; i < count; i++)
+                for (int i = 0; i < count; i++)
                 {
-                    text.RemoveAt(i);
+                    text.RemoveAt(startIndex);
                 }
             }
         }
 
-        private static void Replace()
+        private static void Replace(int startIndex, int count, string replaceValue)
         {
-            int startIndex = int.Parse(tokens[1]);
-            int count = int.Parse(tokens[2]);
-            string value = tokens[3];
-            if (startIndex < 0 || count < 1 || startIndex + value.Length > text.Count - 1
-                || startIndex > text.Count - 1 || startIndex + count > text.Count - 1)
+            if (startIndex < 0 || count < 1 || startIndex > text.Count - 1)
             {
                 Console.WriteLine("ERROR");
             }
             else
             {
                 Delete(startIndex, count);
-                for (int i = 0; i < value.Length; i++)
+                for (int i = 0; i < replaceValue.Length; i++)
                 {
-                    text.Insert(startIndex, value[i]);
+                    text.Insert(startIndex, replaceValue[i]);
                     startIndex++;
                 }
             }
@@ -97,27 +91,40 @@ namespace StringEditor
 
         private static void ExecuteCommand(string command)
         {
-            switch (command)
+            try 
             {
-                case "INSERT":
-                    Insert();
-                    break;
-                case "APPEND":
-                    Append(tokens[1]);
-                    break;
-                case "DELETE":
-                    Delete(int.Parse(tokens[1]), int.Parse(tokens[2]));
-                    break;
-                case "REPLACE":
-                    Replace();
-                    break;
-                case "PRINT":
-                    Print();
-                    break;
-                default:
-                    break;
+                switch (command)
+                {
+                    case "INSERT":
+                        Insert(tokens[1], int.Parse(tokens[2]));
+                        break;
+                    case "APPEND":
+                        Append(tokens[1]);
+                        break;
+                    case "DELETE":
+                        Delete(int.Parse(tokens[1]), int.Parse(tokens[2]));
+                        break;
+                    case "REPLACE":
+                        Replace(int.Parse(tokens[1]), int.Parse(tokens[2]), tokens[3]);
+                        break;
+                    case "PRINT":
+                        Print();
+                        break;
+                    case "HELP":
+                        Help();
+                        break;
+                    case "SPEEDTEST":
+                        TestAppendPerformance();
+                        break;
+                    default:
+                        Console.WriteLine("INVALID COMMAND.");
+                        break;
+                }
+            } catch(Exception)
+            {
+                Console.WriteLine("ERROR");
             }
-                    
+                
         }
 
         private static void ManageInput(string input)
@@ -137,14 +144,38 @@ namespace StringEditor
             {
                 Append(word);
             }
-            Print();
+        }
+
+        private static void TestAppendPerformance()
+        {
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+            TestMethod();
+            Console.WriteLine("10000 appends for " + stopwatch.Elapsed.TotalSeconds);
+        }
+
+        private static void Help()
+        {
+            Console.WriteLine("STRING BUILDING CONSOLE APP");
+            Console.WriteLine(new String('*', 30));
+            Console.WriteLine("COMMANDS:");
+            Console.WriteLine("INSERT some_string position – inserts given string at given position."); 
+            Console.WriteLine("APPEND some_string – appends given string at the end of the text.");
+            Console.WriteLine("DELETE start_index count – deletes the specified substring.");
+            Console.WriteLine("REPLACE start_index count some_string – \n\treplaces the specified substring with specified string.");
+            Console.WriteLine("PRINT – prints the string in the editor.");
+            Console.WriteLine("HELP - print commands.");
+            Console.WriteLine("SPEEDTEST - Perform speed test for append method.");
+            Console.WriteLine("EXIT - exits the app.");
+            Console.WriteLine(new String('*', 30) + "\n");
         }
 
         public static void Main(string[] args)
         {
-            /*
+            Help();
             while (true)
             {
+                Console.Write("Enter command > ");
                 string input = Console.ReadLine();
                 if (input == "EXIT")
                 {
@@ -154,12 +185,6 @@ namespace StringEditor
                 ManageInput(input);
                 Console.WriteLine(new string('*', 50) + '\n');
             }
-            */
-
-            var stopwatch = new Stopwatch();
-            stopwatch.Start();
-            TestMethod();
-            Console.WriteLine("10000 appends for " + stopwatch.Elapsed.TotalSeconds);
         }
     }
 }
