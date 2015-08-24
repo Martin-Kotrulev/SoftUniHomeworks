@@ -1,4 +1,3 @@
-FirstName LastName
 Roger Porter
 Jeffrey Snyder
 Louis Coleman

@@ -21,5 +21,17 @@ namespace BookShopSystem.Data
         public virtual DbSet<Book> Books { get; set; }
 
         public virtual DbSet<Category> Categories { get; set; }
+
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Book>()
+                .HasRequired(b => b.Author)
+                .WithMany(a => a.Books)
+                .HasForeignKey(b => b.AuthorId)
+                .WillCascadeOnDelete(false);
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

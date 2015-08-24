@@ -13,15 +13,15 @@ namespace BookShopSystem.Services.Controllers
     /*
      GET
     /api/authors/{id}
-Gets author with id, first name, last name and a list of all his/her book titles.
-POST
-/api/authors
-Creates a new author with first name and last name (mandatory).
-GET
-/api/authors/{id}/books
-Gets books from author by id. Returns all data about the book + category names. */
+    Gets author with id, first name, last name and a list of all his/her book titles.
+    POST
+    /api/authors
+    Creates a new author with first name and last name (mandatory).
+    GET
+    /api/authors/{id}/books
+    Gets books from author by id. Returns all data about the book + category names. */
 
-    [RoutePrefix("/api/authors")]
+    [RoutePrefix("api/authors")]
     public class AuthorsController : ApiController
     {
         [Route("{Id}")]
@@ -34,15 +34,14 @@ Gets books from author by id. Returns all data about the book + category names. 
 
             return this.Ok(new AuthorViewModel()
             {
-                LastName = author.LastName,
-                Books = author.Books
+                Author = author.Firstname + " " + author.LastName,
+                Books = author.Books.Select(b => b.Title).ToList()
             });
         }
 
-        [Route("/api/authors")]
-        public IHttpActionResult PostNewAuthor(AuthorBindingModel author)
+        public IHttpActionResult PostNewAuthor([FromUri]AuthorBindingModel author)
         {
-            if (author.LastName == null)
+            if (!this.ModelState.IsValid)
                 return this.BadRequest("Last name is required");
 
             var newAuthor = new Author()
@@ -50,9 +49,22 @@ Gets books from author by id. Returns all data about the book + category names. 
                 Firstname = author.FirstName,
                 LastName = author.LastName
             };
+
             var context = new BookShopContext();
             context.Authors.Add(newAuthor);
+            context.SaveChanges();
             return this.Ok("Author added.");
+        }
+
+        [Route("{id}/books")]
+        public IHttpActionResult GetAuthorBooks(int id)
+        {
+            var context = new BookShopContext();
+            var author = context.Authors.Find(id);
+
+            if (author == null)
+                return this.BadRequest("Author does not exist.");
+            return this.Ok(author.Books.Select(b => b.Title).ToList());
         }
     }
 }

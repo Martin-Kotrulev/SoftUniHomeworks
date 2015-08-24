@@ -12,7 +12,16 @@ namespace BookShopSystem.ConsoleClient
         static void Main(string[] args)
         {
             var context = new BookShopContext();
-            Console.WriteLine(context.Books.Count());
+            var authorWithBooks = context.Authors;
+
+            foreach (var a in authorWithBooks)
+            {
+                Console.WriteLine(a.LastName);
+                foreach (var b in a.Books)
+                {
+                    Console.WriteLine(b.Title);
+                }
+            }
         }
     }
 }

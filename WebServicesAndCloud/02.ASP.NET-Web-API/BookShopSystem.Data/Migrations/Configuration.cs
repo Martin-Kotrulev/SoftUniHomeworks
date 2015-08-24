@@ -18,35 +18,40 @@ namespace BookShopSystem.Data.Migrations
 
         private void SeedAuthors(BookShopContext context)
         {
-
+            var authors = File.ReadAllLines("../../../authors.txt");
+            foreach (var a in authors)
+            {
+                var authorName = a.Split(' ');
+                var author = new Author()
+                {
+                    Firstname = authorName[0],
+                    LastName = authorName[1]
+                };
+                context.Authors.Add(author);
+            }
+            context.SaveChanges();
         }
 
         private void SeedCategories(BookShopContext context)
         {
-
+            var categories = File.ReadAllLines("../../../categories.txt");
+            foreach (var c in categories)
+            {
+                context.Categories.Add(new Category() {Name = c});
+            }
+            context.SaveChanges();
         }
 
         private void SeedBooks(BookShopContext context)
         {
             var random = new Random();
-            var authors = File.ReadAllLines("../../../authors.txt");
-            var categories = File.ReadAllLines("../../../categories.txt");
+            
             using (var reader = new StreamReader("../../../books.txt"))
             {
                 var line = reader.ReadLine();
                 line = reader.ReadLine();
                 while (line != null)
-                {
-                    // Manage author
-                    var authorIndex = random.Next(1, authors.Length);
-                    var authorName = authors[authorIndex].Split(' ');
-                    var author = new Author()
-                    {
-                        Firstname = authorName[0],
-                        LastName = authorName[1]
-                    };
-
-                    // Manage book
+                {          
                     var data = line.Split(new[] { ' ' }, 6);
                     var edition = (Edition)int.Parse(data[0]); 
                     var releaseDate = DateTime.ParseExact(
@@ -63,10 +68,12 @@ namespace BookShopSystem.Data.Migrations
                         Title = title
                     };
 
-                    // Manage category
-                    var categoryIndex = random.Next(0, categories.Length);
-                    var category = new Category() { Name = categories[categoryIndex] };
+                    var categoriesCount = context.Categories.Count();
+                    var category = context.Categories.Find(random.Next(1, categoriesCount + 1)); 
+                    var authorsCount = context.Authors.Count();
+                    var authorId = random.Next(1, authorsCount + 1);
                     book.Categories.Add(category);
+                    book.AuthorId = authorId;
 
                     context.Books.Add(book);
 
@@ -80,11 +87,10 @@ namespace BookShopSystem.Data.Migrations
           
             if (context.Books.Count() == 0)
             {
-                SeedAuthors();
-                SeedCategories();
+                SeedAuthors(context);
+                SeedCategories(context);
                 SeedBooks(context);
-            }
-            
+            }           
         }
     }
 }
